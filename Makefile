@@ -120,6 +120,10 @@ LDFLAGS_armv8  = $(BASE_LDFLAGS)
 # Default target: build for native architecture
 all: native
 
+# Builds release candidate build; builds all targets
+release: all-x86 all-arm all-arch
+	@echo "Built release candidate: $(BIN_DIR)/$(PROJECT)"
+
 # Build for the architecture you're compiling on (fastest for local use)
 native: CFLAGS   = $(BASE_CFLAGS) -march=native -mtune=native
 native: CXXFLAGS = $(BASE_CXXFLAGS) -march=native -mtune=native
