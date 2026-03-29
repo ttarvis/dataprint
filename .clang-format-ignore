@@ -1,0 +1,12 @@
+# third parties
+lib/blake3
+test/catch_amalgamated*
+
+# local files
+src/simdjson.cpp
+
+# included files
+include/CLI11.hpp
+include/blake3.h
+include/simdjson.h
+include/xxhash.h

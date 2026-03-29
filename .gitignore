@@ -1,0 +1,95 @@
+#-------------------------------------------------------------
+# Compiled Object Files, Libraries, and Executables (Build Artifacts)
+#-------------------------------------------------------------
+# Compiled object files
+*.o
+*.obj
+
+# Dynamic libraries
+*.so
+*.dll
+
+# Static libraries
+*.a
+*.lib
+
+# Executables
+*.out
+dataprint
+
+# Build directories
+build/
+bin/
+
+#-------------------------------------------------------------
+# IDE and Editor Configuration Files
+#-------------------------------------------------------------
+# Visual Studio / VS Code
+.vscode/
+.vs/
+*.VC.db
+*.VC.opendb
+*.sdf
+*.suo
+*.user
+*.ncb
+*.opensdf
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# CLion
+.idea/
+
+# Xcode (macOS)
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+DerivedData/
+
+# Vim/NeoVim swap files
+*.swp
+*.swo
+
+#-------------------------------------------------------------
+# Operating System & Utility Generated Files
+#-------------------------------------------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*~
+.#*
+
+
+#-------------------------------------------------------------
+# Profiling and Tracing
+#-------------------------------------------------------------
+# macOS
+*.trace
+output.txt
+
+#-------------------------------------------------------------
+# Local Test and Testing Artifacts
+#-------------------------------------------------------------
+examples/
+data/
+
+#-------------------------------------------------------------
+# Benchmark Artifacts
+#-------------------------------------------------------------
+benchmarks/data/
+benchmarks/results/
+
+#-------------------------------------------------------------
+# Other Local Files and Directories
+#-------------------------------------------------------------
+notes/
+TODO
+samples/
