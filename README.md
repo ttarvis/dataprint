@@ -165,7 +165,7 @@ make test
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on reporting bugs, proposing changes, and submitting pull requests.
+See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for guidelines on reporting bugs, proposing changes, and submitting pull requests.
 
 ### Code Style
 
