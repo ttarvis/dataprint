@@ -20,7 +20,6 @@
 - [Performance](#performance)
 - [Benchmarks](#benchmarks)
 - [Testing](#testing)
-- [Deployment](#deployment)
 - [Contributing](#contributing)
 - [Changelog](#changelog)
 - [License](#license)
@@ -103,6 +102,9 @@ dataprint fingerprint -T file.json1
 dataprint compare file1.json1 file2.json
 ```
 
+### More Examples
+
+see [Examples](examples/)
 ---
 
 ## Performance
