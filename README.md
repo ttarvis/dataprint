@@ -74,13 +74,6 @@ included file generators so sizes reflected the actual sizes tested.
 | 1.1 GB    | 5.76s          | 0.81s         | 8.12x   | 1.54 GB/s  |
 | 11 GB     | 57.81s         | 7.05s         | 7.54x   | 1.43 GB/s  |
 
-### Key observations
-
-- Sub-second processing of 1GB JSONL files on commodity cloud hardware
-- Consistent throughput from 1GB to 11GB — linear scaling with file size
-- 8x speedup over single threaded on 16 physical cores
-- 3086% CPU utilization on the 11GB benchmark — pipeline keeps all cores busy
-
 ### Running benchmarks yourself
 
 ```bash
@@ -94,16 +87,6 @@ make run       # runs benchmarks and saves results to benchmarks/results/
 ## Docs
 
 See [Docs](docs/) for more technical details on the implementation and notes on various things.
-
----
-
-## Contributing
-
-See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for guidelines on reporting bugs, proposing changes, and submitting pull requests.
-
-### Code Style
-
-There is style convention that is in the `.clang-format` file.
 
 ---
 
