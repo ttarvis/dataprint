@@ -7,7 +7,8 @@
 
 ---
 
-**dataprint** is Free and Open Source software for anyone who needs a high performance tool that can be used to fingerprint or compare very large JSONL files. It uses the structure and semantics of JSON to meaningfully produce fingerprints and file comparisons. This means order swapping does not affect the output.
+**dataprint** is a high performance tool that can be used for schema drift detection or deduplication of very large JSONL files.
+It uses the structure and semantics of JSON to meaningfully compute fingerprints and similarity.
 
 ---
 
